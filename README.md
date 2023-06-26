@@ -22,6 +22,9 @@ Figure 2 Screen capture of the COALA QGIS plug-in in operation. Data are downloa
 A test token can be used:  
 6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080 
  
-For this token, the regions within the Sentinel-2 tiles are activated:  
-55HCA (Griffith, Australia) for a period of 365 days (from current date) 
-33UXP e 33UVP (Vienna, Austria) for a period of 50 days (from current date).  
+For this token, the regions on interest within the Sentinel-2 tiles are activated: 
+ 
+55HCA (Cobram, Australia) and 55HDC (Griffith, Australia)  
+33UXP (Vienna, Austria and Bratislava, Slovakia) and 33UVP (Linz, Austria) 
+ 
+for a period of 365 days (always from current date) with the availability of the following indicators ET (daily, last 50 days), LAI (daily, last 50 days), NDVI (daily, last 50 days), MZM and NNI 
