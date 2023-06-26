@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/plugins/download_boku" >
+        <file>favicon.png</file>
+        <file>coala.png</file>
+    </qresource>
+</RCC>
