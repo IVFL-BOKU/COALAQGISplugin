@@ -11,7 +11,9 @@ version=0.1
 author=Ariespace s.r.l
 email=info@ariespace.com
 
-about=This plugin provides a quick download of H2020 COALA products from BOKU server. It has been developed under Horizion 2020 research and innovation programme grant agreement No. 870518. Available indicators are: ndvi, fcover, lai, ndmi, str, et (Crop evapotranspiration [mm]), cwr (Crop water requirements [mm]).
+about=This plugin provides a quick download of H2020 COALA products from BOKU server. It has been developed under Horizion 2020 research and innovation programme grant agreement No. 870518. Available indicators are: <strong>ndvi, fcover, lai, ndmi, str, et (Crop evapotranspiration [mm]), cwr (Crop water requirements [mm])</strong>.
+
+	Requested polygon must have <strong>not more than 50 vertexes</strong> and the total area must be <strong>smaller than 50 hectares</strong>.
 
 tracker=http://bugs
 repository=http://repo

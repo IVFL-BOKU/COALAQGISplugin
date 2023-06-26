@@ -271,15 +271,20 @@ class DownloadBoku:
       boku_info("select_feature:in")
       layer = self.dlg.mMapLayerComboBox.currentLayer()
       featid = self.dlg.comboBox_4.currentData()
-      print("select feature id:",featid)
-      layer.selectByExpression('$id='+ str(featid))
-      boku_info("select_feature:out")
+      if layer!=None:
+        print(layer)
+        print("select feature id:",featid)
+        layer.selectByExpression('$id='+ str(featid))
+        boku_info("select_feature:out")
     
     def zoom_to_selected(self,featid):
       boku_info("zoom_to_selected:in")
       self.iface.mapCanvas().refresh() 
       p = QgsProject.instance()
       layer = self.dlg.mMapLayerComboBox.currentLayer()
+      if layer==None:
+          QMessageBox.information(None, "Warning", "Select a polygon layer")
+          return
       p.setCrs(layer.crs())
       featid = self.dlg.comboBox_4.currentData()
       req = QgsFeatureRequest(featid)
