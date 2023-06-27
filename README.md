@@ -27,4 +27,4 @@ For this token, the regions on interest within the Sentinel-2 tiles are activate
 55HCA (Cobram, Australia) and 55HDC (Griffith, Australia)  
 33UXP (Vienna, Austria and Bratislava, Slovakia) and 33UVP (Linz, Austria) 
  
-for a period of 365 days (always from current date) with the availability of the following indicators: NDVI, fcover, LAI, NDMI, STR, ET, CWR (daily for the lastest 50 days from current date), MZM and NNI 
+for a period of 365 days (always from current date) with the availability of the following indicators: NDVI, fcover, LAI, NDMI, STR, ET, CWR (daily for the latest 50 days from current date), MZM and NNI 
